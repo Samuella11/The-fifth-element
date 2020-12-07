@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <link rel="stylesheet" href="http://www.justinaguilar.com/animations/css/animations.css">
+    <link rel="stylesheet" href="../style/homepage.css">
+    <link rel="stylesheet" href="../style/pasta.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap" rel="stylesheet">
+    <script src="../js/jquery-3.5.1.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasta | The Fifth Element Restaurant</title>
+    <link rel="icon" type="image/png" href="../images/fav-icon2.png">
+</head>
+
+<body>
+
+    <div class="header-area">
+        <img src="../images/homepage-images/Final logo.jpg" alt="Logo The Fifth element" class="logo">
+    </div>
+
+    <div class="navbar">
+        <a href="../homepage.html">Home</a>
+        <div class="dropdown">
+            <button class="menuButton" onclick="myFunction()">Menu
+            </button>
+            <div class="menu-content" id="myMenu">
+
+                <a href="Salads.html">Salads</a>
+                <a href="MainDishes.html">Main Dishes</a>
+                <a href="Pasta.html">Pasta</a>
+                <a href="Desserts.html">Desserts</a>
+                <a href="Drinks.html">Drinks</a>
+            </div>
+
+        </div>
+        <a href="../pages/Contacts.html">Contacts</a>
+        <a href="../pages/Reservation2.html">Reservations</a>
+
+    </div>
+
+    <!-- cheese -->
+    <div id="First">
+        <div class="pasta-img">
+            <img src="../images/pasta-images/spaghetti with cheese.jpg">
+        </div>
+        <div class="header">
+            <h1>Mizithra</h1>
+            <p>A toothsome treat for cheese lovers.</p>
+            <a href="../menu/Pasta-view/cheese.html">View</a>
+        </div>
+    </div>
+
+
+    <!-- ravioli -->
+    <div class="pasta">
+        <div class="header-right">
+            <h1>Chicken Piccata</h1>
+            <p>Our famous Mizithra cheese on angel hair pasta with tender chicken. It's a match made in heaven.</p>
+            <a href="../menu/Pasta-view/chicken.html">View</a>
+        </div>
+        <div class="pasta-img">
+            <img src="../images/pasta-images/chicken picatta.jpg" style="float: right;margin-left: 250px;">
+        </div>
+
+    </div>
+
+    <!-- lasagna -->
+    <div class="pasta">
+        <div class="pasta-img">
+            <img src="../images/pasta-images/lasagna.jpg">
+        </div>
+        <div class="header">
+            <h1>Lasagna</h1>
+            <p>A cheesy classic with our from scratch Marinara Sauce!</p>
+            <a href="../menu/Pasta-view/lasagna.html">View</a>
+        </div>
+    </div>
+
+    <!-- meatballs -->
+    <div class="pasta">
+        <div class="header-right">
+            <h1>Spaghetti with Meatballs</h1>
+            <p>An Italian classic that's full of tradition and taste.</p>
+            <a href="../menu/Pasta-view/meatballs.html">View</a>
+        </div>
+        <div class="pasta-img">
+            <img src="../images/pasta-images/spaghetti with meatballs.jpg" style="float: right; margin-left: 250px;">
+        </div>
+
+    </div>
+
+
+    <!-- vesuvius -->
+    <div class="pasta">
+        <div class="pasta-img">
+            <img src="../images/pasta-images/spaghetti vesuvius.jpg">
+        </div>
+        <div class="header">
+            <h1>Spicy Spaghetti Vesuvius</h1>
+            <p>It's the spaghetti you love with a kick you won't forget.</p>
+            <a href="../menu/Pasta-view/vesuvius.html">View</a>
+        </div>
+    </div>
+    <br></br>
+
+    <h1 id="vote">Vote for your favourite meal!</h1>
+
+    <div class="container" id="voting-box">
+        <img src="../images/pasta-images/voter.jpg">
+        
+        <div class="first" onclick="addCheese()">
+            <div class="text">
+                <span class="option-size" id="size-one"></span>
+                <br>
+                <span class="option-title" id="option-one"></span>
+            </div>
+        </div>
+        
+        <div class="second" onclick="addChicken()">
+            <div class="text">
+                <span class="option-size" id="size-two"></span>
+                <br>
+                <span class="option-title" id="option-two"></span>
+            </div>
+        </div>
+        
+        <div class="third" onclick="addLasagna()">
+            <div class="text">
+                <span class="option-size" id="size-three"></span>
+                <br>
+                <span class="option-title" id="option-three"></span>
+            </div>
+        </div>
+       
+        <div class="fourth" onclick="addMeatballs()">
+            <div class="text">
+                <span class="option-size" id="size-four"></span>
+                <br>
+                <span class="option-title" id="option-four"></span>
+            </div>
+        </div>
+        
+        <div class="fifth" onclick="addVesuvius()">
+            <div class="text">
+                <span class="option-size" id="size-five"></span>
+                <br>
+                <span class="option-title" id="option-five"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/pasta.js"></script>
+    <script src="../js/homepage.js"></script>
+
+</body>
+</html>

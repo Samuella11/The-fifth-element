@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../style/homepage.css">
+    <link rel="stylesheet" href="../style/Salads.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salads | The Fifth Element Restaurant</title>
+    <link rel="icon" type="image/png" href="../images/fav-icon2.png">
+</head>
+
+<body>
+    <div class="header-area">
+        <img src="../images/homepage-images/Final logo.jpg" alt="Logo The Fifth element" class="logo">
+    </div>
+    <div id="page-container">
+        <div id="content-wrap">
+            <div class="navbar">
+                <a href="../homepage.html">Home</a>
+                <div class="dropdown">
+                    <button class="menuButton" onclick="myFunction()">Menu
+            </button>
+                    <div class="menu-content" id="myMenu">
+
+                        <a href="Salads.html">Salads</a>
+                        <a href="MainDishes.html">Main Dishes</a>
+                        <a href="Pasta.html">Pasta</a>
+                        <a href="Desserts.html">Desserts</a>
+                        <a href="Drinks.html">Drinks</a>
+                    </div>
+
+                </div>
+                <a href="../pages/Contacts.html">Contacts</a>
+                <a href="../pages/Reservation2.html">Reservations</a>
+
+            </div>
+
+            <div class="maincontent">
+                <div class="container">
+                    <div id="saladMenu">
+                        <div class="item row align-items-center">
+                            <div class="col-sm-3 pr-5">
+                                <img class="product-img" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" src=" ../images/salads-images/kale-salad-resized.jpg ">
+                            </div>
+                            <div class="details col-sm-9 ">
+                                <div class="item__header ">
+                                    <h3 class="item__title" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Kale Salad with Carrot Ginger Dressing</h3>
+                                    <span class="item__dots "></span>
+                                    <span class="item__price ">$8</span>
+                                </div>
+                                <p class="item__description ">Kale salad, carrot, red beet, watermelon radish, crispy chickpeas, avocado, dired cranberries, lemon juice, pepitas and sesame seeds.</p>
+                            </div>
+                        </div>
+                        <div class="item row align-items-center ">
+                            <div class="col-sm-3 pr-5 ">
+                                <img class="product-img " onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" src="../images/salads-images/soba-noodles-salad-resized.jpg ">
+                            </div>
+                            <div class="details col-sm-9 ">
+                                <div class="item__header ">
+                                    <h3 class="item__title " onmouseover="changeColor(this)" onmouseout="changeColor(this)">Sesame Soba Noodles</h3>
+                                    <span class="item__dots "></span>
+                                    <span class="item__price ">$9,50</span>
+                                </div>
+                                <p class="item__description ">Soba noodles, sesame oil, avocado, lemon, snap peas, edamame, watermelon radish, fresh mint leaves and sesame seeds.</p>
+                            </div>
+                        </div>
+                        <div class="item row align-items-center ">
+                            <div class="col-sm-3 pr-5 ">
+                                <img class="product-img " onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" src="../images/salads-images/greek-salad-resized.jpg ">
+                            </div>
+                            <div class="details col-sm-9 ">
+                                <div class="item__header ">
+                                    <h3 class="item__title " onmouseover="changeColor(this)" onmouseout="changeColor(this)">Greek Salad</h3>
+                                    <span class="item__dots "></span>
+                                    <span class="item__price ">$6</span>
+                                </div>
+                                <p class="item__description ">Cucumber, green bell pepper, cherry tomatoes, feta cheese, red onion, olives and fresh mint leaves.</p>
+                            </div>
+                        </div>
+                        <div class="item row align-items-center ">
+                            <div class="col-sm-3 pr-5 ">
+                                <img class="product-img " onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" src="../images/salads-images/heirloom-tomato-fattoush-salad-resized.jpg ">
+                            </div>
+                            <div class="details col-sm-9 ">
+                                <div class="item__header ">
+                                    <h3 class="item__title " onmouseover="changeColor(this)" onmouseout="changeColor(this)">Heirloom Tomato Fattoush Salad</h3>
+                                    <span class="item__dots "></span>
+                                    <span class="item__price ">$7,50</span>
+                                </div>
+                                <p class="item__description ">Tomatoes, pita bread, cucumber, fresh dill, fresh parsley and fresh mint.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer-area ">
+                <div class="container ">
+                    <div>
+                        <div>
+                            <div class="footer-text ">
+                                <p>Copyright &copy;
+                                    <script>
+                                        document.write(new Date().getFullYear());
+                                    </script> All rights reserved | THE FIFTH ELEMENT </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+            <script src="../js/homepage.js "></script>
+            <script src="../js/Salads.js "></script>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,228 @@
+body{
+    background-image: url("../images/dessert-images/desserts.jpg");
+    margin: 0;
+}
+.main-content{
+ padding: 5px;
+ height: 800px;
+}
+.desserts-welcome{
+  display: flex;
+  padding: 10px;
+}
+.desserts-welcome-text{
+  flex: 10;
+  padding: 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bolder;
+  color: rgb(68, 27, 9);
+  text-align: left;
+  word-spacing: 10px;
+  letter-spacing: 8px;
+  -webkit-text-stroke-width: 0.3px; 
+  -webkit-text-stroke-color: cornsilk;
+}
+.desserts-welcome-btn{
+  flex: 2;
+}
+/* button "Special Offer" */
+.btn-offer{
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border: solid rgb(56, 5, 5);
+  border-radius: 10px;
+  background-color: rgb(231, 149, 77);
+  color: rgb(82, 13, 13);
+  font-family: 'Rowdies', cursive;
+  font-size: 18px;
+  margin-top: 10px;
+}
+#popup-msg {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Rowdies', cursive;
+  font-size: 54px;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+}
+#box {
+  width: 40%;
+  height: 40%;
+  text-align: center;
+  padding: 15px;
+  border: 5px solid rgb(221, 17, 17);
+  border-radius: 15px;
+  color: rgb(210, 30, 60);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background-color: pink;
+}
+#popup-msg:target {display: block;}
+button.btn-offer:hover{
+  background-color: burlywood;
+}
+/* Blinking effect on the button */
+.blink{
+  animation: blinker 0.9s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0.6;
+    background-color: burlywood;
+  }
+}
+/* */
+
+.desserts-menu-container{
+  display: flex;
+  padding: 10px;
+}
+.desserts-media{
+  flex: 1;
+  padding: 20px;
+  margin: 30px;
+}
+.desserts-menu{
+  flex: 3;
+  padding: 10px;
+  color: cornsilk;
+}
+
+/* Slideshow */
+.dessertsSlides{
+  display: none;
+}
+.dessertsSlides img {
+  width: 100%;
+  border-style: ridge;
+  border-color: cornsilk;
+  border-width: 10px;
+}
+.desserts-slideshow {
+  max-width: 80%;
+  position: relative;
+  margin: 25px;
+}
+.fade{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+ }
+ @-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/*end of slideshow*/
+
+.desserts-comments-container{
+  padding: 10px;
+}
+.desserts-comments-title{
+  color: rgb(68, 27, 9);
+  background-color: cornsilk;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 24px;
+}
+.desserts-comments-box{
+  border: solid wheat;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+.desserts-comments-box label{
+  font-size: 20px;
+  color: cornsilk;
+}
+#input-comment{
+  width: 100%;
+  height: 40px;
+  overflow-y: scroll;
+  font-size: 15px;
+}
+#btn-add-comment{
+  width: 100px;
+  height: 30px;
+  font-family: 'Rowdies', cursive;
+  font-size: 15px;
+  color: rgb(68, 27, 9);
+  background-color: cornsilk;
+  border-radius: 10px;
+  margin: 5px;
+}
+#desserts-comments{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#desserts-comments li{
+  background-color: cornsilk;
+  margin: 10px;
+  padding: 10px;
+  word-wrap: normal;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: 'Pacifico', cursive;
+}
+.products{
+  display: flex;
+  padding: 10px;
+  margin: 40px;
+  border: solid pink;
+  border-radius: 20px;
+  border-style: double;
+  border-width: 10px;
+  background-color: rgb(73, 9, 18);
+  transition: transform .2s;
+}
+.products:hover{
+  transform: scale(1.08);
+}
+.product-img{
+  flex: 1;
+}
+.product-img img{
+  width: 100%;
+}
+.product-info{
+  flex: 5;
+  margin: 30px;
+}
+.product-name-price{
+  display: flex;
+}
+.product-name{
+  flex: 4;
+  font-size: 28px;
+  font-family: 'Pacifico', cursive;
+}
+.product-price{
+  flex:1;
+  font-size: 28px;
+  text-align: left;
+  font-family: 'Pacifico', cursive;
+}
+.product-ingredients{
+  font-size: 15px;
+  word-wrap: normal;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}

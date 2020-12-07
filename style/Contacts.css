@@ -1,0 +1,75 @@
+body {
+    background-image: url("../images/contacts-images/contact2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.breadcumb-area {
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+    height: 555px;
+    margin-left: 900px;
+    margin-top: -100px;
+}
+
+.breadcumb-content {
+    padding-top: 100px;
+}
+
+.breadcumb-content h2 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.breadcumb-area:before {
+    width: calc(50% - 112px);
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+}
+
+h2 {
+    font-family: 'Rowdies', cursive;
+    font-weight: 700;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.contact-info {
+    font-family: 'Rowdies', cursive;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.footer-text>p {
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 13px;
+}
+
+.footer-area {
+    background-color: #333333;
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+}
+
+.hours-area {
+    font-family: 'Rowdies', cursive;
+    margin-top: -150px;
+    margin-left: 80px;
+    font-size: 20px;
+    color: white;
+}

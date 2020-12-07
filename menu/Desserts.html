@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../style/homepage.css">
+    <link rel="stylesheet" href="../style/Desserts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap" rel="stylesheet">
+    <script src="../js/jquery-3.5.1.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desserts | The Fifth Element Restaurant</title>
+    <link rel="icon" type="image/png" href="../images/fav-icon2.png">
+</head>
+
+<body>
+
+    <div class="header-area">
+        <img src="../images/homepage-images/Final logo.jpg" alt="Logo The Fifth element" class="logo">
+    </div>
+
+    <div class="navbar">
+        <a href="../homepage.html">Home</a>
+        <div class="dropdown">
+            <button class="menuButton" onclick="myFunction()">Menu
+            </button>
+            <div class="menu-content" id="myMenu">
+
+                <a href="Salads.html">Salads</a>
+                <a href="MainDishes.html">Main Dishes</a>
+                <a href="Pasta.html">Pasta</a>
+                <a href="Desserts.html">Desserts</a>
+                <a href="Drinks.html">Drinks</a>
+            </div>
+
+        </div>
+        <a href="../pages/Contacts.html">Contacts</a>
+        <a href="../pages/Reservation2.html">Reservations</a>
+
+    </div>
+
+    <div class="main-content">
+
+        <div class="desserts-welcome">
+            <div class="desserts-welcome-text">Enjoy our delicious desserts!</div>
+            <div class="desserts-welcome-btn">
+                <a href="#" id="popup-msg">
+                    <div id="box">
+                        Offer of the day: take two chocolate cakes and get one free!
+                    </div>
+                </a>
+
+                <button class="btn-offer blink" onclick="window.location.href='#popup-msg'">SPECIAL OFFER</button>
+            </div>
+        </div>
+
+        <div class="desserts-menu-container">
+
+            <div class="desserts-media">
+
+                <div class="desserts-slideshow">
+                    <div class="dessertsSlides fade"><img src="../images/dessert-images/d1.jpg"></div>
+                    <div class="dessertsSlides fade"><img src="../images/dessert-images/d2.jpg"></div>
+                    <div class="dessertsSlides fade"><img src="../images/dessert-images/d3.jpg"></div>
+                    <div class="dessertsSlides fade"><img src="../images/dessert-images/d4.jpg"></div>
+                    <div class="dessertsSlides fade"><img src="../images/dessert-images/d5.jpg"></div>
+                    <div class="dessertsSlides fade"><img src="../images/dessert-images/d6.jpg"></div>
+                </div>
+
+                <div class="desserts-comments-container">
+                    <div class="desserts-comments-title"><u>Our guests for our desserts:</u></div>
+                    <div class="desserts-comments-box">
+                        <label for="input-comment"><u>Which is your favourite dessert?</u> <br></label>
+                        <textarea id="input-comment" type="text" onkeydown=""></textarea><br>
+                        <button id="btn-add-comment">Comment</button>
+                        <div class="box-comments">  
+                            <ul id="desserts-comments">
+                                <li>My favourite cake is Raffaello. Mmmmmm!</li>
+                                <li>Chocolate cake is the best!</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="desserts-menu">
+
+                <div class="products">
+                    <div class="product-img">
+                        <img src="../images/dessert-images/chocolate.jpeg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name-price">
+                            <div class="product-name"> Chocolate cake</div>
+                            <div class="product-price">$11.99</div>
+                        </div>
+                        <div class="product-ingredients">/eggs, butter, fluor, cocoa, chocolate, hazelnuts/</div>
+                    </div>
+                </div>
+
+                <div class="products">
+                    <div class="product-img">
+                        <img src="../images/dessert-images/Cheesecake.jpg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name-price">
+                            <div class="product-name"> Classic Cheesecake</div>
+                            <div class="product-price">$10.99</div>
+                        </div>
+                        <div class="product-ingredients">/cream cheese, sugar, sour cream, eggs, butter, graham cracker crumbs/</div>
+                    </div>
+                </div>
+
+                <div class="products">
+                    <div class="product-img">
+                        <img src="../images/dessert-images/tiramisu.jpg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name-price">
+                            <div class="product-name"> Tiramisu</div>
+                            <div class="product-price">$12.99</div>
+                        </div>
+                        <div class="product-ingredients">/eggs, mascarpone, espresso, ladyfingers, shugar/</div>
+                    </div>
+                </div>
+
+                <div class="products">
+                    <div class="product-img">
+                        <img src="../images/dessert-images/raffaello.jpg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name-price">
+                            <div class="product-name"> Raffaello cake</div>
+                            <div class="product-price">$13.99</div>
+                        </div>
+                        <div class="product-ingredients">/eggs, butter, fluor, alamonds, white chocolate, coconut milk, mascarpone, cream, shugar/</div>
+                    </div>
+                </div>
+
+                <div class="products">
+                    <div class="product-img">
+                        <img src="../images/dessert-images/oreo.jpg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name-price">
+                            <div class="product-name"> Oreo cake</div>
+                            <div class="product-price">$13.99</div>
+                        </div>
+                        <div class="product-ingredients">/butter, fluor, cocoa, cream, oreo biscuits, sugar/</div>
+                    </div>
+                </div>
+
+                <div class="products">
+                    <div class="product-img">
+                        <img src="../images/dessert-images/redvelvet.jfif" alt="">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name-price">
+                            <div class="product-name"> Red velvet</div>
+                            <div class="product-price">$15.99</div>
+                        </div>
+                        <div class="product-ingredients">/fluor, cream, butter, cream cheese/</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+    </div>
+
+    <footer class="footer-area">
+        <div class="container">
+            <div>
+                <div>
+                    <div class="footer-text">
+                        <p>Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved | THE FIFTH ELEMENT </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/homepage.js"></script>
+    <script src="../js/Desserts.js"></script>
+
+</body>
+
+</html>

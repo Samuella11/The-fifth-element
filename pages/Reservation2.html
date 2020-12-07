@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="../js/jquery-3.5.1.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/navigation-bar-reservation.css">
+    <link rel="stylesheet" href="../style/reservation2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation | The Fifth Element Restaurant</title>
+    <link rel="icon" type="image/png" href="../images/fav-icon2.png">
+
+</head>
+
+<body>
+
+    <div class="header-area" style="text-align: center;">
+        <img src="../images/homepage-images/Final logo.jpg" alt="Logo The Fifth element" class="logo">
+    </div>
+
+
+    <div class="navbar">
+        <a href="../homepage.html">Home</a>
+        <div class="dropdown">
+            <button class="menuButton" onclick="myFunction()">Menu
+            </button>
+            <div class="menu-content" id="myMenu">
+
+                <a href="../menu/Salads.html">Salads</a>
+                <a href="../menu/MainDishes.html">Main Dishes</a>
+                <a href="../menu/Pasta.html">Pasta</a>
+                <a href="../menu/Desserts.html">Desserts</a>
+                <a href="../menu/Drinks.html">Drinks</a>
+            </div>
+
+        </div>
+        <a href="../pages/Contacts.html">Contacts</a>
+        <a href="../pages/Reservation2.html">Reservations</a>
+
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="user signinBx">
+                <div class="imgBx">
+                    <img src="../images/reservation-images/make-reseraviton.jpg">
+                </div>
+                <div class="formBx">
+                    <form>
+                        <h1>Reservation</h1>
+                        <p>Fill the form to make reservation:</p>
+
+                        <input type="text" id="name" placeholder="Name"><br></br>
+                        <input type="date" id="date" placeholder="Date"><br></br>
+                        <input type="time" id="time" placeholder="Time"><br></br>
+                        <input type="number" id="guests" placeholder="Number of guests"><br></br>
+                        <button class="signup" id="btn"><a href="#" onclick="toggleForm();">Book now</a></button>
+                    </form>
+                </div>
+            </div>
+            <div class="user signupBx">
+                <div class="formBx">
+                    <form>
+                        <h1>You have successfully</h1>
+                        <h1>reserved a table!</h1>
+
+                        <div id="content">
+                            <ul>
+                                <p>Reservation details :</p>
+                            </ul>
+                        </div>
+
+                        <button class="back"><a href="../homepage.html">Return to homepage</a></button>
+
+                    </form>
+                </div>
+                <div class="imgBx"><img src="../images/reservation-images/reserved.jpg"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-area">
+        <div class="container">
+            <div>
+                <div>
+                    <div class="footer-text">
+                        <p>Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved | THE FIFTH ELEMENT </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/reservation.js"></script>
+    <script src="../js/homepage.js "></script>
+</body>
+
+</html>

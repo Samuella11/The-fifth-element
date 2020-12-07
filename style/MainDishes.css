@@ -1,0 +1,85 @@
+
+body{
+  margin: 0;
+  background-image: url("../images/mainDishes-images/CTA-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    
+}
+div.gallery {
+    border: 0px;
+    
+  }
+  
+  div.gallery img {
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+    
+  }
+  
+  div.desc {
+    
+    padding: 10px;
+    text-align: left;
+    color: rgb(241, 209, 170);
+    font-family:Comic Sans MS, cursive, sans-serif;
+  }
+  
+  .responsive {
+    box-sizing: border-box;
+    padding: 0 60px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .footer-area{
+
+    font-family: 'Rowdies', cursive;
+      background-color: #333333;
+      position: fixed; 
+      bottom: 0;
+      left: 0;
+      text-align: center;
+      font-size: 50px;
+      width: 100%;
+      height: 2.5rem;
+  }
+
+.gap { 
+  width:100%; 
+  height:500px; 
+}
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+#placeholder {
+  background-color :rgba(221, 16, 16, 0.1);
+  padding: 50px;
+  margin: 50px auto;
+  border: 0px solid gray;
+  border-radius: 10px;  
+  font-size:30px;
+
+}

@@ -1,0 +1,42 @@
+.coupon {
+  border: 5px dotted #bbb; /* Dotted border */
+  border-radius: 16px; /* Rounded border */
+  max-width: 600px;
+  object-fit: none;
+  object-position:5px 10%;
+
+}
+
+.box {
+  padding: 2px 16px;
+  background-color: #f1f1f1;
+}
+.box h3{
+    font-size: x-large;
+}
+.promo {
+  background: #ccc;
+  padding: 3px;
+}
+
+.expire {
+  color: red;
+}
+#wrapper {
+    border:5px;
+}
+#div1 {
+    display: inline-block;
+    width:33%;
+    height:10%;
+}
+#div2 {
+    display: inline-block;
+    width:33%;
+    height:10%;
+}
+#div3 {
+    display: inline-block;
+    width:33%;
+    height:10%;
+}
